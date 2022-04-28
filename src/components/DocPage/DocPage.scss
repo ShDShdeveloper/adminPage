@@ -1,0 +1,16 @@
+.main{
+  padding: 10px 3%;
+  .docInfo{
+    box-shadow: 0 0 10px -3px grey;
+    width: 100%;
+    padding: 3%;
+    .title{
+      font-size: 13px;
+      font-weight: bold;
+    }
+    .text{
+      font-size: 13px;
+      margin-right: 3%;
+    }
+  }
+}

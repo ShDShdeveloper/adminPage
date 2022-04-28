@@ -1,0 +1,81 @@
+.formBox{
+ padding: 2% 0 2% 10%;
+ .text{
+  font-size: 13px;
+  color: #a4a3a3;
+  background-color: white;
+  margin-top: 30px;
+  margin-left: 10px;
+  z-index: 9;
+ }
+ .inputOne{
+  text-align: right;
+  height: 200px;
+  margin-bottom: 80px;
+ }
+ .error{
+  font-size: 20px;
+  color: red;
+  font-weight: bold;
+ }
+ label{
+  font-size: 12px;
+  margin: 0 10px;
+  font-weight: 640;
+ }
+ .linkInput{
+  border: 1px solid #cdcccc;
+  width: 200px;
+  border-radius: 6px;
+  height: 30px;
+  margin-left: 10px;
+ }
+ .link{
+  position: absolute;
+  top: -7px;
+  left: 20px;
+  font-size: 12px;
+  color: #999898;
+  background-color: white;
+ }
+ .btns{
+  background-color: #0077ff;
+  width: 50px;
+  display: inline-block;
+  height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  margin-bottom: 20px;
+ }
+ .appNum{
+  position: absolute;
+  margin-top: 5px;
+  input{
+   width: 100px;
+   height: 30px;
+   margin: 3px 12px;
+   border-radius: 5px;
+   border: 1px solid #c4c4c4;
+  }
+ }
+}
+@media (max-width: 767px) {
+ .appNum{
+  position: relative!important;
+ }
+}
+
+@media (max-width: 574.9px) {
+ .text{
+  margin-top: 53px!important;
+ }
+}
+@media (max-width: 412.9px) {
+ .text{
+  margin-top: 79px!important;
+ }
+ .linkInput{
+  width: 170px!important;
+ }
+
+}
